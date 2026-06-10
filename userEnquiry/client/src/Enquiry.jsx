@@ -52,18 +52,15 @@ export default function Enquiry() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 p-4">
 
-      {/* MAIN CONTAINER */}
+     
       <div className="w-full max-w-6xl bg-white/90 backdrop-blur-xl rounded-2xl shadow-2xl p-6 border border-blue-100">
-
-        {/* TITLE */}
+        
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Enquiry Management System
         </h1>
 
-        {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-          {/* FORM */}
          <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl shadow-lg p-6 border border-blue-100">
 
             <h2 className="text-xl font-semibold mb-4 text-gray-700">
@@ -119,7 +116,6 @@ export default function Enquiry() {
             </form>
           </div>
 
-          {/* TABLE */}
           <div className="bg-gradient-to-br from-white via-blue-50 to-white rounded-2xl shadow-lg p-6 border border-blue-100">
 
             <h2 className="text-xl font-semibold mb-4 text-gray-700">
@@ -135,7 +131,6 @@ export default function Enquiry() {
 
                 <table className="w-full text-sm">
 
-                  {/* HEADER */}
                   <thead>
                     <tr className="bg-blue-50 text-gray-700">
                       <th className="p-2 border">Name</th>
@@ -145,7 +140,6 @@ export default function Enquiry() {
                     </tr>
                   </thead>
 
-                  {/* BODY */}
                   <tbody>
                     {enquiries.map((item) => (
                       <tr
